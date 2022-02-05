@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Alex',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -29,17 +29,17 @@ const CONFIG = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '59.9342802',
+  defaultLongitude: '30.3350986',
 
   // Autochange
   autoChangeTheme: true,
 
   // Autochabge by OS
-  changeThemeByOS: false, 
+  changeThemeByOS: true, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
+  changeThemeByHour: false,
   hourDarkThemeActive: '18:30',
   hourDarkThemeInactive: '07:00',
 
